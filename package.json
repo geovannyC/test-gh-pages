@@ -12,9 +12,10 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "homepage": "https://geovannyC.github.io/test-gh-pages",
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
