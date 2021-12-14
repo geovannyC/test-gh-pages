@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [14.x, 16.x]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node. js ${{matrix.node-version}}
@@ -20,7 +20,7 @@ jobs:
       - name: Build Page
         run: npm run build
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-page@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           publish_dir: ./build
