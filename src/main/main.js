@@ -15,8 +15,9 @@ const reducer = (state = initialState(), action = {}) => {
     case ACTIONS.DECREMENT:
         if(state.count>=1){
             return { count: state.count - 1 };
+        }else{
+          return
         }
-    break;
 
     default:
       return state
@@ -34,7 +35,7 @@ export const Main = () => {
     return (
       <body>
         <div className="g-container one-column">
-        <small className="txt-title">{state.count}</small>
+        <small className="txt-title">{state?state.count:0}</small>
           <div className="two-columns">
             <button className="button-increment green-c" onClick={()=>{increment()}}>
               <small className="txt-btn">Incrementar</small>
