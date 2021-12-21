@@ -1,6 +1,6 @@
 export const getData=async(url)=>{
 
-    const dirSolve =  `http://34.125.15.216${url}`
+    const dirSolve =  `https://composite-watch-335623.an.r.appspot.com/${url}`
       const response = await fetch(dirSolve, {
         method: 'GET',
         headers: {
