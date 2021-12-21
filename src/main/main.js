@@ -33,7 +33,7 @@ export const Main = () => {
     dispatch({ type: ACTIONS.DECREMENT });
   };
   const testfetch = ()=>{
-    const url = "/prueba"
+    const url = "prueba"
     getData(url).then((response)=>{
       console.log(response)
     })
