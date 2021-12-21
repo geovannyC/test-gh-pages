@@ -33,7 +33,7 @@ export const Main = () => {
     dispatch({ type: ACTIONS.DECREMENT });
   };
   const testfetch = ()=>{
-    const url = "https://composite-watch-335623.appspot.com/"
+    const url = "http://34.125.15.216/prueba"
     getData(url).then((response)=>{
       console.log(response)
     })
