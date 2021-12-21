@@ -1,5 +1,5 @@
 import React, { useReducer } from "react";
-import { getData, sendData } from "../until/fetch";
+import { getData } from "../until/fetch";
 const initialState = ()=>({
     count: 0
 })
