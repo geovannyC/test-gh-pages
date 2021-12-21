@@ -1,6 +1,6 @@
 export const getData=async(url)=>{
 
-    const dirSolve =  `http://localhost:4000${url}`
+    const dirSolve =  `http://34.125.15.216${url}`
       const response = await fetch(dirSolve, {
         method: 'GET',
         headers: {
