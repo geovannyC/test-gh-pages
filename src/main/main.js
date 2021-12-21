@@ -1,4 +1,5 @@
 import React, { useReducer } from "react";
+import { getData, sendData } from "../until/fetch";
 const initialState = ()=>({
     count: 0
 })
@@ -16,7 +17,7 @@ const reducer = (state = initialState(), action = {}) => {
         if(state.count>=1){
             return { count: state.count - 1 };
         }else{
-          return
+          return;
         }
 
     default:
@@ -31,6 +32,12 @@ export const Main = () => {
   const decrement = () => {
     dispatch({ type: ACTIONS.DECREMENT });
   };
+  const testfetch = ()=>{
+    const url = "https://composite-watch-335623.appspot.com/"
+    getData(url).then((response)=>{
+      console.log(response)
+    })
+  }
   const SchemmaMain = () => {
     return (
       <body>
@@ -42,6 +49,9 @@ export const Main = () => {
             </button>
             <button className="button-increment red-c"  onClick={()=>{decrement()}}>
               <small className="txt-btn">Decrementar</small>
+            </button>
+            <button className="button-increment red-c"  onClick={()=>{testfetch()}}>
+              <small className="txt-btn">test</small>
             </button>
           </div>
         </div>
