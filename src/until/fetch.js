@@ -1,7 +1,6 @@
 export const getData=async(url)=>{
 
-  
-    const dirSolve =  `http://localhost:4000/${url}`
+    const dirSolve =  `http://157.100.171.205:4000/${url}`
       const response = await fetch(dirSolve, {
         method: 'GET',
         headers: {
