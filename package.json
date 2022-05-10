@@ -21,7 +21,7 @@
     "vanilla-tilt": "^1.7.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://rojasleon.github.io/portfolio",
+  "homepage": "https://geovannyC.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
