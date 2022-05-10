@@ -1,20 +1,35 @@
 {
   "files": {
-    "main.css": "/test-gh-pages/static/css/main.3b82f245.chunk.css",
-    "main.js": "/test-gh-pages/static/js/main.e55f6da1.chunk.js",
-    "main.js.map": "/test-gh-pages/static/js/main.e55f6da1.chunk.js.map",
-    "runtime-main.js": "/test-gh-pages/static/js/runtime-main.0930d963.js",
-    "runtime-main.js.map": "/test-gh-pages/static/js/runtime-main.0930d963.js.map",
-    "static/js/2.509527be.chunk.js": "/test-gh-pages/static/js/2.509527be.chunk.js",
-    "static/js/2.509527be.chunk.js.map": "/test-gh-pages/static/js/2.509527be.chunk.js.map",
+    "main.css": "/test-gh-pages/static/css/main.9dfbf79c.css",
+    "main.js": "/test-gh-pages/static/js/main.a6c6496f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js",
+    "static/media/registerScuderia.gif": "/test-gh-pages/static/media/registerScuderia.31a638690b5417910ccf.gif",
+    "static/media/Tablev2.gif": "/test-gh-pages/static/media/Tablev2.81c4514e788c4e4ede2f.gif",
+    "static/media/registerChampionShip.gif": "/test-gh-pages/static/media/registerChampionShip.0f0c2af092f8be2360a4.gif",
+    "static/media/PointsRegisterv2.gif": "/test-gh-pages/static/media/PointsRegisterv2.5825c850a41310486fa6.gif",
+    "static/media/PodiumReview.gif": "/test-gh-pages/static/media/PodiumReview.dfa45b03342e36a38a55.gif",
+    "static/media/smSearchMotor.gif": "/test-gh-pages/static/media/smSearchMotor.ddcd87ae5938dd01d487.gif",
+    "static/media/smAdminRegister.gif": "/test-gh-pages/static/media/smAdminRegister.0cb38264c3d8ffeaf762.gif",
+    "static/media/registerTrack.gif": "/test-gh-pages/static/media/registerTrack.ab43801c50a92586c9d8.gif",
+    "static/media/smCreatePubli.gif": "/test-gh-pages/static/media/smCreatePubli.8f1cfbeaf33d4f343acd.gif",
+    "static/media/registerDriver.gif": "/test-gh-pages/static/media/registerDriver.a3e47ed0e9e0723a00c1.gif",
+    "static/media/smAdmin2Register.gif": "/test-gh-pages/static/media/smAdmin2Register.6370fd0e9bcaf951dd82.gif",
+    "static/media/smRegister.gif": "/test-gh-pages/static/media/smRegister.59ecc5068763172fa7b6.gif",
+    "static/media/smEnablePubli.gif": "/test-gh-pages/static/media/smEnablePubli.7c167ea1fe04583b2bf2.gif",
+    "static/media/profile.jpeg": "/test-gh-pages/static/media/profile.987b3e0b4d47f168c86a.jpeg",
+    "static/media/Curriculum vitae ENG v4.1.pdf": "/test-gh-pages/static/media/Curriculum vitae ENG v4.1.01dce3377f03b4c03775.pdf",
+    "static/media/codesignal.png": "/test-gh-pages/static/media/codesignal.5eef77e0bc00ad915d46.png",
+    "static/media/github.png": "/test-gh-pages/static/media/github.02e037285a99fe3d71ae.png",
+    "static/media/email.png": "/test-gh-pages/static/media/email.af6299c01099f52ccedd.png",
+    "static/media/linkedin.png": "/test-gh-pages/static/media/linkedin.e67ba0408bf68effd8e3.png",
+    "static/media/cv.png": "/test-gh-pages/static/media/cv.1ca9def8e70e9ce3265a.png",
     "index.html": "/test-gh-pages/index.html",
-    "static/css/main.3b82f245.chunk.css.map": "/test-gh-pages/static/css/main.3b82f245.chunk.css.map",
-    "static/js/2.509527be.chunk.js.LICENSE.txt": "/test-gh-pages/static/js/2.509527be.chunk.js.LICENSE.txt"
+    "main.9dfbf79c.css.map": "/test-gh-pages/static/css/main.9dfbf79c.css.map",
+    "main.a6c6496f.js.map": "/test-gh-pages/static/js/main.a6c6496f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0930d963.js",
-    "static/js/2.509527be.chunk.js",
-    "static/css/main.3b82f245.chunk.css",
-    "static/js/main.e55f6da1.chunk.js"
+    "static/css/main.9dfbf79c.css",
+    "static/js/main.a6c6496f.js"
   ]
 }
