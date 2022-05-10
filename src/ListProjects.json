@@ -1,0 +1,122 @@
+[
+  {
+    "name_project": "Fórmula 1 App",
+    "description": [
+      {
+        "component": "Fisrt Resgister",
+        "module": [
+          {
+            "module": "Track Register",
+            "resume": "Created for affordable registrations of the all tracks in the f1 App, connected with others modules and used as an empty container where will save specific information. Design and implementation of each module belonging to this component with Js and Css. ",
+            "file": "registerTrack.gif"
+          },
+          {
+            "module": "Driver Register",
+            "resume": "Registration form for drivers with autocomplete system and file search on the server",
+            "file": "registerDriver.gif"
+          },
+          {
+            "module": "Scuderia Register",
+            "resume": "Registration of the teams with autocomplete systems by drivers and team, at the same time the system searches among its files if there is or not a previous registration and folders related to the name of the team",
+            "file": "registerScuderia.gif"
+          }
+        ],
+        "path": "firstRegister",
+        "resume": "Search system and autocomplete towards the server and with client-side process loading for the registration of drivers, tracks and teams, design and implementation of each module belonging to this component with Js and Css, design and implementation of the Back-End architecture for the correct operation and link with this component"
+      },
+      {
+        "component": "processing system and autocomplete",
+        "module": [
+          {
+            "module": "Championship Register",
+            "resume": "In the system it is possible to create different championships, selecting each track and each participating team, on the server the scheme is capable of creating and assigning GP executed in the same Mongo document",
+            "file": "registerChampionShip.gif"
+          },
+          {
+            "module": "Points Register",
+            "resume": "Autocomplete system with tesseract.js to analyze, decipher and search for matches from an image, automatically ordering and assigning the position of each pilot, in addition to this advanced search systems are implemented.",
+            "file": "PointsRegisterv2.gif"
+          }
+        ],
+        "path": "proccessingSystem",
+        "resume": "Modular championship and team registration system, also use of tesseract.js for text processing within images with use of A.I., auto-completion of fields and assignment of points, penalties, warnings, and quick lap point with processing in real time, design and implementation of the Back-End architecture for the correct operation and link with this component"
+      },
+      {
+        "component": "Review of the data",
+        "module": [
+          {
+            "module": "Podium Review",
+            "resume": "The review of points, from the data of each GP the system is able to determine the winner and illustrate it on each tile, you can review the points and positions assigned after running each GP",
+            "file": "PodiumReview.gif"
+          },
+
+          {
+            "module": "Points Review",
+            "resume": "The score table allows you to see the current statistics for each championship, such as points for each GP, Penalties, Warnings, and total points for each driver and team. It is also the application is responsible for assigning records such as track records, fastest laps of each driver, most victories and average race position.",
+            "file": "Tablev2.gif"
+          }
+        ],
+        "path": "review",
+        "resume": "Scheme capable of organizing, distributing and calculating the total score, penalties, warnings, in addition to the calculation of fastest laps generated, average points per track, average points per season, fastest lap, victories by team and driver, use of css for animations, design and implementation of the Back-End architecture for the correct operation and link with this component"
+      }
+    ],
+    "tools": [
+      "Css",
+      "React",
+      "Express",
+      "NodeJs",
+      "MongoDb",
+      "tesseract.js"
+    ]
+  },
+  {
+    "name_project": "Software Market App",
+    "description": [
+      {
+        "component": "Nav Bar",
+        "module": [
+          {
+            "file": "smSearchMotor.gif"
+          }
+        ],
+        "resume": "Development of an intelligent search engine with functions such as autocomplete, specific search by one or more values, search by city, detection of related words, search by parameters only city or only search value"
+      },
+      {
+        "component": "Create and Enable Content",
+        "module": [
+          {
+            "file": "smEnablePubli.gif"
+          },
+          {
+            "file": "smCreatePubli.gif"
+          }
+        ],
+        "resume": "Design and development of the interface with Material UI for the creation and publication of content, creation of the components, schemes in the back-end and logic of the server."
+      },
+      {
+        "component": "Register Users",
+        "module": [
+          {
+            "file": "smAdmin2Register.gif"
+          },
+
+          {
+            "file": "smAdminRegister.gif"
+          },
+          {
+            "file": "smRegister.gif"
+          }
+        ],
+        "resume": "Use of the login template provided by Material UI and development of components for the login and registration form with a validation system in all fields including a system for verifying Ecuadorian ID numbers, the same system was required for the system administrative login."
+      }
+    ],
+    "tools": [
+      "React",
+      "MaterialUi",
+      "PostgreSQL",
+      "NodeJs",
+      "Express"
+    ]
+  }
+
+]

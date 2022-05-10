@@ -1,0 +1,18 @@
+.container-page-1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--bg-dark-blue);
+}
+.general-container-fixed{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.general-container-profile{
+    position: fixed;
+    display: flex;
+    // width: 100%;
+    height: 100%;
+}

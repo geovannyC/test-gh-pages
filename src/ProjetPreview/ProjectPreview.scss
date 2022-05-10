@@ -1,0 +1,78 @@
+@import "../App.scss";
+.project-container {
+  width: 100%;
+  height: 100%;
+}
+.title-container {
+  display: flex;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform-origin: top;
+
+
+  z-index: 0;
+  @include sm {
+    height: 10%;
+    width: 100%;
+  }
+  @include md {
+    height: 10%;
+    width: 58%;
+    top: 40%;
+    right: 42%;
+  }
+}
+.title-items {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  // justify-content: center;
+  // align-items: center;
+
+  // background-color: var(--dark-blue);
+}
+.item-layer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+}
+.title-layer {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.item-container {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  @include sm {
+    height: 40%;
+    width: 80%;
+    top: 30%;
+    margin-right: 2%;
+  }
+  @include md {
+    height: 50%;
+    width: 55%;
+    top: 20%;
+    right: 0;
+    margin-right: 0%;
+  }
+  @include lg {
+    height: 50%;
+    width: 55%;
+    top: 20%;
+    right: 0;
+    margin-right: 0%;
+  }
+  @include xl {
+    height: 50%;
+    width: 55%;
+    top: 20%;
+    right: 0;
+    margin-right: 0%;
+  }
+}

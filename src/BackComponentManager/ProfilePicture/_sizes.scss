@@ -1,0 +1,5 @@
+$left: 10%;
+$screen-md-min: 768px;
+@mixin left {
+  left: $left;
+}
