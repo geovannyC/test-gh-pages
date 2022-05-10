@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { TitleProjectItems } from "../../../TitleProjectItems/TitleProjectItems";
 import { TitleProjectComponent } from "../../../TitleProjectComponent/TitleProjectComponent";
 import "./Welcomer.scss";
 export function Welcomer() {
@@ -18,7 +17,6 @@ export function Welcomer() {
           }
         >
           <TitleProjectComponent nameProject="Hi user_name, welcome to my portafolio" />
-          {/* <TitleProjectComponent /> */}
         </div>
         <div
           className={
@@ -35,7 +33,6 @@ export function Welcomer() {
             React. Below you will find some of my main projects built in React.
           </p>
         </div>
-        {/* <p className="msg-welcome border-bottom">Nulla ex exercitation laboris voluptate.</p> */}
       </div>
     </div>
   );

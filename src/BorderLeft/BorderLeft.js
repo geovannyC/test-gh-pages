@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from "react";
-import home from "../addons/home.png";
-import contact from "../addons/contact.png";
-import projects from "../addons/projects.png";
 import "./BorderLeft.scss";
 export function BorderLeft({ redirect }) {
   const [loading, setLoading] = useState(true)
