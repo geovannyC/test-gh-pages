@@ -21,9 +21,11 @@
     "vanilla-tilt": "^1.7.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://geovannyC.github.io/portfolio",
+  "homepage": "https://geovannyC.github.io/test-gh-pages",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
