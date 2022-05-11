@@ -13,7 +13,6 @@ export function ImageAnimation({ moduleImage }) {
         if (index === item) {
           set((state) => (state + 1) % moduleImage.length);
         }
-        console.log(moduleImage);
       }, 18000);
     },
     exitBeforeEnter: true,

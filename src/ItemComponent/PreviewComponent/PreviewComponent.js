@@ -14,19 +14,10 @@ function Tilt(props) {
 
 export const PreviewComponent = ({ data }) => {
   const [arrImages, setArrImages] = useState([]);
-
   useEffect(() => {
     handleGetAllImages();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-  function handleGetAllImages() {
-    const images = importAll(
-      require.context("../../addons/Gifs/", false, /\.gif$/)
-    );
-    const schemmaBuilded = buildSchemma(images);
-    const Images = findImages(schemmaBuilded);
-    setArrImages(Images);
-  }
 
   const options = {
     easing: "cubic-bezier(.03,.98,.52,.99)",
@@ -44,7 +35,7 @@ export const PreviewComponent = ({ data }) => {
   function buildSchemma(arr) {
     return arr.map((e) => {
       const shcemma = {
-        name: `${e.replace("/static/media/", "").split(".")[0]}.gif`,
+        name: `${e.replace("/test-gh-pages/static/media/", "").split(".")[0]}.gif`,
         file: e,
       };
       return shcemma;
@@ -56,7 +47,15 @@ export const PreviewComponent = ({ data }) => {
       return image;
     });
   };
-
+  const handleGetAllImages = () => {
+    const images = importAll(
+      require.context("../../addons/Gifs/", false, /\.gif$/)
+    );
+    const schemmaBuilded = buildSchemma(images);
+    const ArrImages = findImages(schemmaBuilded);
+    console.log(schemmaBuilded)
+    setArrImages(ArrImages);
+  };
   if (arrImages.length < 1) {
     return <h1>Loading</h1>;
   } else {
