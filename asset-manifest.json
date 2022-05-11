@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/test-gh-pages/static/css/main.9dfbf79c.css",
-    "main.js": "/test-gh-pages/static/js/main.ad56cd96.js",
+    "main.js": "/test-gh-pages/static/js/main.476666a2.js",
     "static/js/787.1ed0c42c.chunk.js": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js",
-    "static/media/registerScuderia.gif": "/test-gh-pages/static/media/registerScuderia.916d3a789264655e1e4b.gif",
-    "static/media/PointsRegisterv2.gif": "/test-gh-pages/static/media/PointsRegisterv2.462479855d7904fe07a2.gif",
-    "static/media/Tablev2.gif": "/test-gh-pages/static/media/Tablev2.de3e17f4841c28b1642f.gif",
-    "static/media/registerChampionShip.gif": "/test-gh-pages/static/media/registerChampionShip.511846fbc3888ebc834f.gif",
-    "static/media/PodiumReview.gif": "/test-gh-pages/static/media/PodiumReview.213ceece79623b5530d8.gif",
-    "static/media/smSearchMotor.gif": "/test-gh-pages/static/media/smSearchMotor.15542dc27fb2c1606a37.gif",
-    "static/media/smCreatePubli.gif": "/test-gh-pages/static/media/smCreatePubli.2fad24d2b6f9da20e4f5.gif",
-    "static/media/smAdminRegister.gif": "/test-gh-pages/static/media/smAdminRegister.1b2e88ca7677c0c322d4.gif",
-    "static/media/registerTrack.gif": "/test-gh-pages/static/media/registerTrack.0e665fe29e4d0d4f169d.gif",
-    "static/media/registerDriver.gif": "/test-gh-pages/static/media/registerDriver.c0848ca6ca843de95560.gif",
-    "static/media/smRegister.gif": "/test-gh-pages/static/media/smRegister.d57cea641db3b208f881.gif",
-    "static/media/smEnablePubli.gif": "/test-gh-pages/static/media/smEnablePubli.027c839c298e93686012.gif",
-    "static/media/smAdmin2Register.gif": "/test-gh-pages/static/media/smAdmin2Register.474be4f141cef5e8860b.gif",
+    "static/media/Tablev2.gif": "/test-gh-pages/static/media/Tablev2.4ef5e8f40c93490c15cf.gif",
+    "static/media/registerChampionShip.gif": "/test-gh-pages/static/media/registerChampionShip.0f0c2af092f8be2360a4.gif",
+    "static/media/PointsRegisterv2.gif": "/test-gh-pages/static/media/PointsRegisterv2.5141b487538678221829.gif",
+    "static/media/registerScuderia.gif": "/test-gh-pages/static/media/registerScuderia.db7e8778f9790dab3632.gif",
+    "static/media/PodiumReview.gif": "/test-gh-pages/static/media/PodiumReview.ff8d56dfac8d0dfb38e6.gif",
+    "static/media/smSearchMotor.gif": "/test-gh-pages/static/media/smSearchMotor.ddcd87ae5938dd01d487.gif",
+    "static/media/smAdminRegister.gif": "/test-gh-pages/static/media/smAdminRegister.0cb38264c3d8ffeaf762.gif",
+    "static/media/smCreatePubli.gif": "/test-gh-pages/static/media/smCreatePubli.8f1cfbeaf33d4f343acd.gif",
+    "static/media/registerDriver.gif": "/test-gh-pages/static/media/registerDriver.70e7464d99da5b1d8086.gif",
+    "static/media/registerTrack.gif": "/test-gh-pages/static/media/registerTrack.70e7464d99da5b1d8086.gif",
+    "static/media/smAdmin2Register.gif": "/test-gh-pages/static/media/smAdmin2Register.6370fd0e9bcaf951dd82.gif",
+    "static/media/smRegister.gif": "/test-gh-pages/static/media/smRegister.59ecc5068763172fa7b6.gif",
+    "static/media/smEnablePubli.gif": "/test-gh-pages/static/media/smEnablePubli.7c167ea1fe04583b2bf2.gif",
     "static/media/profile.jpeg": "/test-gh-pages/static/media/profile.987b3e0b4d47f168c86a.jpeg",
     "static/media/Curriculum vitae ENG v4.1.pdf": "/test-gh-pages/static/media/Curriculum vitae ENG v4.1.01dce3377f03b4c03775.pdf",
     "static/media/codesignal.png": "/test-gh-pages/static/media/codesignal.5eef77e0bc00ad915d46.png",
@@ -25,11 +25,11 @@
     "static/media/cv.png": "/test-gh-pages/static/media/cv.1ca9def8e70e9ce3265a.png",
     "index.html": "/test-gh-pages/index.html",
     "main.9dfbf79c.css.map": "/test-gh-pages/static/css/main.9dfbf79c.css.map",
-    "main.ad56cd96.js.map": "/test-gh-pages/static/js/main.ad56cd96.js.map",
+    "main.476666a2.js.map": "/test-gh-pages/static/js/main.476666a2.js.map",
     "787.1ed0c42c.chunk.js.map": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9dfbf79c.css",
-    "static/js/main.ad56cd96.js"
+    "static/js/main.476666a2.js"
   ]
 }
