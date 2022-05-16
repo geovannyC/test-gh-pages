@@ -16,7 +16,7 @@ export function Welcomer() {
               : "container-title animation-on time500-animation"
           }
         >
-          <TitleProjectComponent nameProject="Hi user_name, welcome to my portafolio" />
+          <TitleProjectComponent nameProject="Hi user_name, welcome to my portfolio" />
         </div>
         <div
           className={
