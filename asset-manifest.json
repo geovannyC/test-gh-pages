@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-gh-pages/static/css/main.9dfbf79c.css",
-    "main.js": "/test-gh-pages/static/js/main.47fb24a5.js",
+    "main.js": "/test-gh-pages/static/js/main.d38e5452.js",
     "static/js/787.1ed0c42c.chunk.js": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js",
     "static/media/Tablev2.gif": "/test-gh-pages/static/media/Tablev2.4ef5e8f40c93490c15cf.gif",
     "static/media/registerChampionShip.gif": "/test-gh-pages/static/media/registerChampionShip.0f0c2af092f8be2360a4.gif",
@@ -25,11 +25,11 @@
     "static/media/cv.png": "/test-gh-pages/static/media/cv.1ca9def8e70e9ce3265a.png",
     "index.html": "/test-gh-pages/index.html",
     "main.9dfbf79c.css.map": "/test-gh-pages/static/css/main.9dfbf79c.css.map",
-    "main.47fb24a5.js.map": "/test-gh-pages/static/js/main.47fb24a5.js.map",
+    "main.d38e5452.js.map": "/test-gh-pages/static/js/main.d38e5452.js.map",
     "787.1ed0c42c.chunk.js.map": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9dfbf79c.css",
-    "static/js/main.47fb24a5.js"
+    "static/js/main.d38e5452.js"
   ]
 }
