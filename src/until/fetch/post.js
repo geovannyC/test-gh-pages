@@ -1,5 +1,5 @@
 export const sendData=async(data)=>{
-    const dirSolve = `https://formsubmit.co/ajax/ff84baca6839c96003c5583f3cde1704.com`
+    const dirSolve = `https://formsubmit.co/ajax/ff84baca6839c96003c5583f3cde1704`
       const response = await fetch(dirSolve, {
         method: 'POST',
         body: data,

@@ -7,7 +7,7 @@ export function ContactForm() {
   const { register, handleSubmit } = useForm(),
     [statusLetterSent, setStatusLetterSent] = useState(false);
   const onSubmit = (data) => {
-    sendData(data).then((response) => {
+    sendData(JSON.stringify(data)).then((response) => {
       if (response) {
         setStatusLetterSent(true);
       }
