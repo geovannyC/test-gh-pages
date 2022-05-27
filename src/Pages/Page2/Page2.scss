@@ -4,6 +4,9 @@
   align-items: flex-end;
   width: 100%;
   height: 100%;
+  @include sm {
+    display: none;
+  }
 }
 .align-text {
   padding-right: 20%;

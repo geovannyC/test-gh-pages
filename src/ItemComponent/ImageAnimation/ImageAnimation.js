@@ -9,35 +9,43 @@ export function ImageAnimation({ moduleImage }) {
     leave: { opacity: 0 },
     config: { duration: 1000 },
     onRest: (_a, _b, item) => {
-      setTimeout(() => {
-        if (index === item) {
-          set((state) => (state + 1) % moduleImage.length);
-        }
-      }, 18000);
+      console.log(moduleImage[index])
+      if (item === index)
+        setTimeout(() => {
+          if (index === item) {
+            set((state) => (state + 1) % moduleImage.length);
+          }
+        },  moduleImage[index].time);
     },
     exitBeforeEnter: true,
   });
-  if (moduleImage.length < 1||!moduleImage) {
-    return <h1>Loading</h1>;
-  } else {
-    return (
-      <div className="test-img">
-        {transitions((style, i) => (
-          <animated.div
-            style={{
-              ...style,
-
-              // backgroundImage: slides[i],
-            }}
-          >
-            <img
-              src={moduleImage[i] ? moduleImage[i].file : ""}
-              alt=""
-              className="back-image-card"
-            />
-          </animated.div>
-        ))}
-      </div>
-    );
-  }
+  const ModuleImage = () => {
+    if (moduleImage.length < 1 || !moduleImage) {
+      return <h1>Loading</h1>;
+    } else {
+      return (
+        <div className="test-img">
+          {transitions((style, i) => (
+            <animated.div
+              style={{
+                ...style,
+              }}
+            >
+              <video
+                src={moduleImage[i] ? moduleImage[i].file : ""}
+                className="back-image-card"
+                autoPlay="true"
+              />
+              {/* <img
+                src={moduleImage[i] ? moduleImage[i].file : ""}
+                alt=""
+            
+              /> */}
+            </animated.div>
+          ))}
+        </div>
+      );
+    }
+  };
+  return <ModuleImage />;
 }

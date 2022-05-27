@@ -6,15 +6,9 @@ import { Page2 } from "../Pages/Page2/Page2";
 import "./ParralaxComponentv2.scss";
 import { ContactPage } from "../Pages/ContactPage/ContactPage";
 import { TitleProjectItems } from "../TitleProjectItems/TitleProjectItems";
-import { ContactItem } from "../Pages/ContactPage/ContactItem/ContactItem";
-import { BorderLeft } from "../BorderLeft/BorderLeft";
-import codesignal from "../addons/codesignal.png";
-import gmail from "../addons/gmail.png";
-import mail from "../addons/email.png";
-import github from "../addons/github.png";
-import linkedin from "../addons/linkedin.png";
-import cv from "../addons/cv.png";
+
 import ProjectsJson from "../ListProjects.json";
+import { Border } from "../BorderLeft/Border";
 export function ParralaxComponentv2() {
   const childRefParallax = useRef();
 
@@ -49,35 +43,43 @@ export function ParralaxComponentv2() {
   }
   return (
     <div className="general-container-tiles">
-      <div className="container-left-border">
-        <BorderLeft redirect={handleReditectCurrentPage} />
-      </div>
-      <div className="container">
-        <Parallax pages={4} ref={childRefParallax}>
-          <ParallaxLayer
-            offset={0}
-            speed={2.5}
-            onClick={() => childRefParallax.current.scrollTo(1)}
-          >
-            <Page1 />
-          </ParallaxLayer>
-          <ParallaxLayer offset={1} speed={0.5}>
-            <Page2 />
-          </ParallaxLayer>
-          <ParallaxLayer offset={1} speed={1.5}>
-            <div className="title-items">
-              <TitleProjectItems items={ProjectsJson[0].tools}/>
-            </div>
-          </ParallaxLayer>
-          <ParallaxLayer offset={2} speed={0.5}>
-            <Page2 />
-          </ParallaxLayer>
-          <ParallaxLayer offset={2} speed={1.5}>
-            <div className="title-items">
-              <TitleProjectItems items={ProjectsJson[1].tools}/>
-            </div>
-          </ParallaxLayer>
-          <ParallaxLayer className="container-item" offset={3.2} speed={2}>
+      <div className="transform-format">
+        <div className="container-left-border ">
+
+          <Border redirect={handleReditectCurrentPage}/>
+          {/* <BorderLeft redirect={handleReditectCurrentPage} /> */}
+        </div>
+        <div className="container">
+          <Parallax pages={4} ref={childRefParallax}>
+            <ParallaxLayer
+              offset={0}
+              speed={2.5}
+              onClick={() => childRefParallax.current.scrollTo(1)}
+            >
+              <Page1 />
+            </ParallaxLayer>
+            <ParallaxLayer offset={1} speed={0.5}>
+              <Page2 />
+            </ParallaxLayer>
+            <ParallaxLayer offset={1} speed={1.5}>
+              <div className="title-items">
+                <TitleProjectItems items={ProjectsJson[0].tools} />
+              </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={2} speed={0.5}>
+              <Page2 />
+            </ParallaxLayer>
+            <ParallaxLayer offset={2} speed={1.5}>
+              <div className="title-items">
+                <TitleProjectItems items={ProjectsJson[1].tools} />
+              </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={2} speed={1.5}>
+              <div className="title-items">
+                <TitleProjectItems items={ProjectsJson[1].tools} />
+              </div>
+            </ParallaxLayer>
+            {/* <ParallaxLayer className="container-item" offset={3.2} speed={2}>
             <ContactItem
               link="https://github.com/geovannyC"
               icon={github}
@@ -111,27 +113,36 @@ export function ParralaxComponentv2() {
 
           <ParallaxLayer className="container-item" offset={3.7} speed={1.4}>
             <ContactItem link="Curriculum Vitae" icon={cv} type="download" />
-          </ParallaxLayer>
+          </ParallaxLayer> */}
 
-          <ParallaxLayer offset={3} speed={0.5}>
-            <ContactPage />
-          </ParallaxLayer>
-          <ParallaxLayer offset={1} speed={2.5} onClick={() => callNxtPage(1)}>
-            <ProjectPreview
-              callNxtPage={handleChangueCurrentPage}
-              data={ProjectsJson[0]}
-              ref={childRefProjectPreview1}
-            />
-          </ParallaxLayer>
+            <ParallaxLayer offset={3} speed={0.5}>
+              <ContactPage />
+            </ParallaxLayer>
+            <ParallaxLayer
+              offset={1}
+              speed={2.5}
+              onClick={() => callNxtPage(1)}
+            >
+              <ProjectPreview
+                callNxtPage={handleChangueCurrentPage}
+                data={ProjectsJson[0]}
+                ref={childRefProjectPreview1}
+              />
+            </ParallaxLayer>
 
-          <ParallaxLayer offset={2} speed={2.5} onClick={() => callNxtPage(2)}>
-            <ProjectPreview
-              callNxtPage={handleChangueCurrentPage}
-              data={ProjectsJson[1]}
-              ref={childRefProjectPreview2}
-            />
-          </ParallaxLayer>
-        </Parallax>
+            <ParallaxLayer
+              offset={2}
+              speed={2.5}
+              onClick={() => callNxtPage(2)}
+            >
+              <ProjectPreview
+                callNxtPage={handleChangueCurrentPage}
+                data={ProjectsJson[1]}
+                ref={childRefProjectPreview2}
+              />
+            </ParallaxLayer>
+          </Parallax>
+        </div>
       </div>
     </div>
   );

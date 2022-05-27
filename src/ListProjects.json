@@ -8,17 +8,20 @@
           {
             "module": "Track Register",
             "resume": "Created for affordable registrations of the all tracks in the f1 App, connected with others modules and used as an empty container where will save specific information. Design and implementation of each module belonging to this component with Js and Css. ",
-            "file": "registerTrack.gif"
+            "file": "registerTrack.mp4",
+            "time": 18
           },
           {
             "module": "Driver Register",
             "resume": "Registration form for drivers with autocomplete system and file search on the server",
-            "file": "registerDriver.gif"
+            "file": "registerDriver.mp4",
+            "time": 18
           },
           {
             "module": "Scuderia Register",
             "resume": "Registration of the teams with autocomplete systems by drivers and team, at the same time the system searches among its files if there is or not a previous registration and folders related to the name of the team",
-            "file": "registerScuderia.gif"
+            "file": "registerScuderia.mp4",
+            "time": 8
           }
         ],
         "path": "firstRegister",
@@ -30,12 +33,14 @@
           {
             "module": "Championship Register",
             "resume": "In the system it is possible to create different championships, selecting each track and each participating team, on the server the scheme is capable of creating and assigning GP executed in the same Mongo document",
-            "file": "registerChampionShip.gif"
+            "file": "registerChampionShip.mp4",
+            "time": 24
           },
           {
             "module": "Points Register",
             "resume": "Autocomplete system with tesseract.js to analyze, decipher and search for matches from an image, automatically ordering and assigning the position of each pilot, in addition to this advanced search systems are implemented.",
-            "file": "PointsRegisterv2.gif"
+            "file": "PointsRegisterv2.mp4",
+            "time": 40
           }
         ],
         "path": "proccessingSystem",
@@ -47,13 +52,15 @@
           {
             "module": "Podium Review",
             "resume": "The review of points, from the data of each GP the system is able to determine the winner and illustrate it on each tile, you can review the points and positions assigned after running each GP",
-            "file": "PodiumReview.gif"
+            "file": "PodiumReview.mp4",
+            "time": 6
           },
 
           {
             "module": "Points Review",
             "resume": "The score table allows you to see the current statistics for each championship, such as points for each GP, Penalties, Warnings, and total points for each driver and team. It is also the application is responsible for assigning records such as track records, fastest laps of each driver, most victories and average race position.",
-            "file": "Tablev2.gif"
+            "file": "Tablev2.mp4",
+            "time": 16
           }
         ],
         "path": "review",
@@ -76,7 +83,8 @@
         "component": "Nav Bar",
         "module": [
           {
-            "file": "smSearchMotor.gif"
+            "file": "smSearchMotor.mp4",
+            "time": 45
           }
         ],
         "resume": "Development of an intelligent search engine with functions such as autocomplete, specific search by one or more values, search by city, detection of related words, search by parameters only city or only search value"
@@ -85,10 +93,12 @@
         "component": "Create and Enable Content",
         "module": [
           {
-            "file": "smEnablePubli.gif"
+            "file": "smEnablePubli.mp4",
+            "time": 13
           },
           {
-            "file": "smCreatePubli.gif"
+            "file": "smCreatePubli.mp4",
+            "time": 53
           }
         ],
         "resume": "Design and development of the interface with Material UI for the creation and publication of content, creation of the components, schemes in the back-end and logic of the server."
@@ -97,14 +107,17 @@
         "component": "Register Users",
         "module": [
           {
-            "file": "smAdmin2Register.gif"
+            "file": "smAdmin2Register.mp4",
+            "time": 17
           },
 
           {
-            "file": "smAdminRegister.gif"
+            "file": "smAdminRegister.mp4",
+            "time": 33
           },
           {
-            "file": "smRegister.gif"
+            "file": "smRegister.mp4",
+            "time": 50
           }
         ],
         "resume": "Use of the login template provided by Material UI and development of components for the login and registration form with a validation system in all fields including a system for verifying Ecuadorian ID numbers, the same system was required for the system administrative login."

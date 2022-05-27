@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./PreviewComponent.scss";
 import VanillaTilt from "vanilla-tilt";
 import { ImageAnimation } from "../ImageAnimation/ImageAnimation";
+import { ImageAnimationv2 } from "../ImageAnimation/ImageAnimationv2";
 function Tilt(props) {
   const { options, ...rest } = props;
   const tilt = useRef(null);
@@ -16,7 +17,7 @@ export const PreviewComponent = ({ data }) => {
   const [arrImages, setArrImages] = useState([]);
   useEffect(() => {
     handleGetAllImages();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const options = {
@@ -35,7 +36,9 @@ export const PreviewComponent = ({ data }) => {
   function buildSchemma(arr) {
     return arr.map((e) => {
       const shcemma = {
-        name: `${e.replace("/test-gh-pages/static/media/", "").split(".")[0]}.gif`,
+        name: `${
+          e.replace("/test-gh-pages/static/media/", "").split(".")[0]
+        }.mp4`,
         file: e,
       };
       return shcemma;
@@ -44,33 +47,36 @@ export const PreviewComponent = ({ data }) => {
   const findImages = (arr) => {
     return data.module.map((e) => {
       const image = arr.find((i) => i.name === e.file);
-      return image;
+      const newSchemma = { ...image };
+      newSchemma.time = e.time;
+      return newSchemma;
     });
   };
   const handleGetAllImages = () => {
     const images = importAll(
-      require.context("../../addons/Gifs/", false, /\.gif$/)
+      require.context("../../addons/mp4 compress2", false, /\.mp4$/)
     );
     const schemmaBuilded = buildSchemma(images);
     const ArrImages = findImages(schemmaBuilded);
-    console.log(schemmaBuilded)
     setArrImages(ArrImages);
   };
-  if (arrImages.length < 1) {
-    return <h1>Loading</h1>;
-  } else {
-    return (
-      <Tilt className="tile-container" options={options}>
-        <div className="box">
-          <div className="black-filter"></div>
-          <div className="switch-icon up"></div>
-          <div className="text-content">
-            <small>{data.resume}</small>
+  const SchemmaComponent = () => {
+    if (arrImages.length < 1) {
+      return <h1>Loading</h1>;
+    } else {
+      return (
+        <Tilt className="tile-container" options={options}>
+          <div className="box">
+            <div className="black-filter"></div>
+            <div className="switch-icon up"></div>
+            <div className="text-content">
+              <small>{data.resume}</small>
+            </div>
+            <ImageAnimationv2 moduleImage={arrImages} />
           </div>
-          <ImageAnimation moduleImage={arrImages} />
-          {/* <img src={backgroundImage} alt="" className="back-image-card" /> */}
-        </div>
-      </Tilt>
-    );
-  }
+        </Tilt>
+      );
+    }
+  };
+  return <SchemmaComponent/>
 };

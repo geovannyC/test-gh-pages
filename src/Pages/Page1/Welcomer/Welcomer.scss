@@ -1,18 +1,26 @@
+@import "../../../App.scss";
+
 .container-welcomer {
   display: flex;
-  width: 40%;
+
   height: 100%;
   align-items: center;
-  justify-content: left;
+  @include sm {
+    width: 100%;
+    justify-content: center;
+  }
+  @include md {
+    width: 55%;
+    justify-content: left;
+  }
 }
 .container-welcomer-msg {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   height: 100%;
   justify-content: center;
   row-gap: 5%;
-  // left: 20%;
 }
 .container-title {
   height: 11%;
@@ -32,12 +40,13 @@
   transition: 1200ms;
 }
 .container-resume {
-  width: 98%;
+  width: 90%;
   z-index: 2;
-  padding-left: 5%;
   height: auto;
 }
 .container-resume > p {
+  width: 95%;
+  justify-content: center;
   font-weight: lighter;
   letter-spacing: 0.2rem;
   text-align: justify;

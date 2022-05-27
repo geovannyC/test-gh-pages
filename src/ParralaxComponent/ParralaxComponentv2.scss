@@ -1,36 +1,69 @@
+@import "../App.scss";
 body,
 html {
   margin: 0;
   background-color: var(--bg-dark-blue);
   overflow: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 .general-container-tiles {
-  display: grid;
-  grid-template-columns: 10% 1fr;
-  justify-content: right;
-  align-items: center;
-  overflow: hidden;
   height: 100vh;
   width: 100vw;
-  transition: 200ms;
   // direction: rtl;
 }
+.transform-format {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  @include sm {
+    grid-template-rows: 95% 1fr;
+    grid-template-columns: 1fr;
+  }
+  @include md {
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+.title-items{
+  position: inherit;
+  bottom: 10%;
+  width: 50%;
+  height: 40%;
+  @include sm {
+    display: none;
+  }
+  @include md {
+    display: flex;
+  }
+}
 .container {
+  z-index: 3;
   overflow: hidden;
-  border: 0% 0% 10% 0%;
-  width: 90%;
+  border-left: 2%;
+  width: 100%;
   height: 100%;
 }
-.parralax{
+.parralax {
   overflow: hidden;
 }
-.container-item{
+.container-item {
   position: sticky;
   height: 10px;
   width: auto;
   z-index: 1;
 }
-.container-left-border{
+.container-left-border {
+  display: flex;
+  z-index: 4;
+  bottom: 0;
+  @include sm {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  @include md {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
   width: 100%;
   height: 100%;
 }
