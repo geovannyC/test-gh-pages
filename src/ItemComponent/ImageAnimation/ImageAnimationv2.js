@@ -9,7 +9,7 @@ export function ImageAnimationv2({ moduleImage }) {
   });
   useEffect(() => {
     setDataImages({ ...dataImages, arrImages: moduleImage });
-  }, []);
+  }, [dataImages, moduleImage]);
   useInterval(
     () => {
       setDataImages({ ...dataImages, loadingImage: true });

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./PreviewComponent.scss";
 import VanillaTilt from "vanilla-tilt";
-import { ImageAnimation } from "../ImageAnimation/ImageAnimation";
 import { ImageAnimationv2 } from "../ImageAnimation/ImageAnimationv2";
 function Tilt(props) {
   const { options, ...rest } = props;
