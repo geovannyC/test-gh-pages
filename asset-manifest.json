@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-gh-pages/static/css/main.6d37ac58.css",
-    "main.js": "/test-gh-pages/static/js/main.91557450.js",
+    "main.css": "/test-gh-pages/static/css/main.afd4f5f5.css",
+    "main.js": "/test-gh-pages/static/js/main.ebde6936.js",
     "static/js/787.1ed0c42c.chunk.js": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js",
     "static/media/PointsRegisterv2.mp4": "/test-gh-pages/static/media/PointsRegisterv2.f532a09ebe774a87f19b.mp4",
     "static/media/Tablev2.mp4": "/test-gh-pages/static/media/Tablev2.97d31da5aa131f63a292.mp4",
@@ -18,12 +18,12 @@
     "static/media/profile.jpeg": "/test-gh-pages/static/media/profile.2a1d68658d37370a9ea3.jpeg",
     "static/media/smEnablePubli.mp4": "/test-gh-pages/static/media/smEnablePubli.d03df84afc1f4fa0088b.mp4",
     "index.html": "/test-gh-pages/index.html",
-    "main.6d37ac58.css.map": "/test-gh-pages/static/css/main.6d37ac58.css.map",
-    "main.91557450.js.map": "/test-gh-pages/static/js/main.91557450.js.map",
+    "main.afd4f5f5.css.map": "/test-gh-pages/static/css/main.afd4f5f5.css.map",
+    "main.ebde6936.js.map": "/test-gh-pages/static/js/main.ebde6936.js.map",
     "787.1ed0c42c.chunk.js.map": "/test-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d37ac58.css",
-    "static/js/main.91557450.js"
+    "static/css/main.afd4f5f5.css",
+    "static/js/main.ebde6936.js"
   ]
 }
