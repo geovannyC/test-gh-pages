@@ -1,0 +1,99 @@
+@counter-style triangle {
+  system: cyclic;
+  symbols: ‣;
+  suffix: " ";
+}
+.containerContentItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardBack h3 {
+  letter-spacing: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-dark-blue);
+}
+.itemImg {
+  background-size: auto;
+  width: 50%;
+  height: 50%;
+}
+.cardBack .list {
+  padding-left: 4px;
+  border-left: 2px solid var(--bg-dark-blue);
+  text-align: left;
+  list-style: symbols(cyclic "*" "†" "‡");
+  list-style-type: triangle;
+  display: flex;
+  flex-direction: column;
+  color: var(--bg-dark-blue);
+  letter-spacing: 0.2rem;
+}
+.cardFront .item h2 {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+  color: var(--white);
+}
+.cardFront .item {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 1fr 20%;
+  background-color: rgba(0, 0, 0, 0);
+  filter: brightness(50%) invert(80%);
+}
+.containerItems {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+  justify-content: center;
+}
+
+.card:hover .cardInner {
+  transform: rotateX(-180deg);
+}
+
+.cardFront {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-dark-blue);
+  /* color: black; */
+}
+
+.cardBack {
+  font-weight: lighter;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  color: var(--white);
+  background-color: var(--white);
+  transform: rotateX(-180deg);
+}
+.card {
+  perspective: 1000px;
+  width: 300px;
+  height: 200px;
+}
+.cardInner {
+  border: 1px solid white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.cardFront,
+.cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}

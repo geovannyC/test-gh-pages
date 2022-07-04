@@ -1,0 +1,225 @@
+[
+  {
+    "category": "Languages",
+    "skills": [
+      {
+        "skill_name": "JavaScript",
+        "years": 4,
+        "path": "javascript.svg",
+        "projects": ["Us Traking App", "Software Market", "F1 App", "FAM App"]
+      },
+      {
+        "skill_name": "Python",
+        "years": 2,
+        "path": "python.svg",
+        "projects": ["Freshi App", "Medilabor", "Buen Gobierno"]
+      },
+      {
+        "skill_name": "C#",
+        "years": 1,
+        "path": "c-sharp.svg",
+        "projects": ["PacMan Multiplayer  Game", "2048 Game"]
+      }
+    ]
+  },
+  {
+    "category": "Skills Front End",
+    "skills": [
+      {
+        "skill_name": "React",
+        "years": 3,
+        "path": "react-native.svg",
+        "projects": [
+          "Software Market",
+          "F1 App",
+          "Ioet Technical Test",
+          "ToolBokx App"
+        ]
+      },
+      {
+        "skill_name": "React Native",
+        "years": 2,
+        "path": "react-native.svg",
+        "projects": ["Us Traking App", "FAM App"]
+      },
+      {
+        "skill_name": "React Hook Form",
+        "years": 3,
+        "path": "form_icon.svg",
+        "projects": ["Us Traking App", "F1 App", "Ioet Technical Test"]
+      },
+      {
+        "skill_name": "Material Ui",
+        "years": 2,
+        "path": "material-ui.svg",
+        "projects": ["Us Traking App", "Software Market", "F1 App", "FAM App"]
+      },
+      {
+        "skill_name": "Pure Css",
+        "years": 2,
+        "path": "css.svg",
+        "projects": ["F1 App"]
+      },
+      {
+        "skill_name": "Redux",
+        "years": "<1",
+        "path": "redux.svg",
+        "projects": ["ToolBokx App", "F1 App", "FAM App"]
+      },
+      {
+        "skill_name": "Use Reducer Hook",
+        "years": 2,
+        "path": "react-hook.svg",
+        "projects": ["Us Traking App"]
+      },
+      {
+        "skill_name": "Odoo 12",
+        "years": 2,
+        "path": "odoo.svg",
+        "projects": ["Freshi App", "Medilabor", "Buen Gobierno"]
+      }
+    ]
+  },
+  {
+    "category": "Skills Back End",
+    "skills": [
+      {
+        "skill_name": "Node Js",
+        "years": 4,
+        "path": "nodejs.svg",
+        "projects": [
+          "Us Traking App",
+          "Software Market",
+          "F1 App",
+          "FAM App",
+          "Ioet Technical Test",
+          "ToolBokx App"
+        ]
+      },
+      {
+        "skill_name": "Express Js",
+        "years": 4,
+        "path": "expressjs.svg",
+        "projects": [
+          "Us Traking App",
+          "Software Market",
+          "F1 App",
+          "FAM App",
+          "Ioet Technical Test",
+          "ToolBokx App"
+        ]
+      },
+      {
+        "skill_name": "bcrypt",
+        "years": 4,
+        "path": "bcrypt.svg",
+        "projects": ["Software Market", "F1 App"]
+      },
+      {
+        "skill_name": "Mongoose",
+        "years": 3,
+        "path": "mongoose.svg",
+        "projects": ["Software Market", "F1 App", "FAM App"]
+      },
+      {
+        "skill_name": "NodeMailer",
+        "years": 2,
+        "path": "nodemailer.svg",
+        "projects": ["Software Market"]
+      }
+    ]
+  },
+  {
+    "category": "Data Bases",
+    "skills": [
+      {
+        "skill_name": "MongoDB",
+        "years": 3,
+        "path": "mongodb.svg",
+        "projects": ["Software Market", "F1 App", "FAM App"]
+      },
+      {
+        "skill_name": "Postgres",
+        "years": 2,
+        "path": "postgresql.svg",
+        "projects": ["Freshi App", "Medilabor", "Buen Gobierno"]
+      },
+      {
+        "skill_name": "MySql",
+        "years": 1,
+        "path": "mysql.svg",
+        "projects": ["Us Traking App"]
+      }
+    ]
+  },
+  {
+    "category": "Tests",
+    "skills": [
+      {
+        "skill_name": "React Testing Library",
+        "years": 1,
+        "path": "react-native.svg",
+        "projects": ["F1 App", "Ioet Technical Test", "ToolBokx App"]
+      },
+      {
+        "skill_name": "Mocha y Chai",
+        "years": 1,
+        "path": "mocha.svg",
+        "projects": ["Ioet Technical Test", "ToolBokx App"]
+      },
+      {
+        "skill_name": "SuperTest",
+        "years": 1,
+        "path": "form_icon.svg",
+        "projects": ["ToolBokx App"]
+      },
+      {
+        "skill_name": "Jest",
+        "years": 1,
+        "path": "jest.svg",
+        "projects": ["F1 App"]
+      }
+    ]
+  },
+  {
+    "category": "Versions control",
+    "skills": [
+      {
+        "skill_name": "GitHub",
+        "years": 4,
+        "path": "github.svg",
+        "projects": [
+          "Software Market",
+          "F1 App",
+          "Ioet Technical Test",
+          "ToolBokx App",
+          "Us Traking App",
+          "FAM App"
+        ]
+      },
+      {
+        "skill_name": "GitLab",
+        "years": 2,
+        "path": "gitlab.svg",
+        "projects": ["Buen Gobierno", "Freshi App", "Medilabor"]
+      }
+    ]
+  },
+  {
+    "category": "Cloud Services",
+    "skills": [
+      {
+        "skill_name": "Google Cloud Platform",
+        "years": "<1",
+        "path": "cloud_google.svg",
+        "projects": ["F1 App"]
+      },
+      {
+        "skill_name": "GitHub Pages",
+        "years": "<1",
+        "path": "github.svg",
+        "projects": ["Portfolio"]
+      }
+    ]
+  }
+]

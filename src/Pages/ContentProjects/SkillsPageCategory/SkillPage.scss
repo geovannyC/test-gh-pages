@@ -1,0 +1,24 @@
+@import "../../../App.scss";
+
+.titleItems {
+  width: 100%;
+  height: 100%;
+  height: fit-content;
+  text-align: center;
+}
+.titleItems h1 {
+  padding: 2% 0%;
+  letter-spacing: 0.8rem;
+  font-weight: lighter;
+  color: var(--white);
+}
+.skillsContainer {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-items: center;
+}
+.skill {
+  padding: 6%;
+}

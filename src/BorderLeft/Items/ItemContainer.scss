@@ -6,12 +6,12 @@
   // padding-top: 20%;
   display: grid;
   @include sm {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
   }
   @include md {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 
   row-gap: 2%;
@@ -22,7 +22,8 @@
   transition: 200ms;
 }
 .border-icon:hover .img-icon {
-  color: var(--bg-dark-blue);
+  filter: brightness(0%);
+  transition: 200ms;
 }
 .border-icon {
   display: flex;
@@ -36,5 +37,8 @@
 
 .img-icon {
   width: 20%;
-  color: var(--white);
+
+  filter: brightness(50%) invert(80%);
+  transition: 200ms;
+  // color: var(--white);
 }

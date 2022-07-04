@@ -1,0 +1,14 @@
+@import "../../App.scss";
+.categoryContainer {
+  display: grid;
+  height: auto;
+  width: 100%;
+  @include md {
+    width: 90%;
+  }
+  grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));
+}
+.category {
+  width: 100%;
+  height: auto;
+}
