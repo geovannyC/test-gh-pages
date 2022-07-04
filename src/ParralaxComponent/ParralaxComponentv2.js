@@ -102,7 +102,7 @@ export function ParralaxComponentv2() {
               />
             </ParallaxLayer>
 
-            <ParallaxLayer offset={3} speed={2.2}>
+            <ParallaxLayer offset={3} speed={2.8}>
               <ContentProjects
                 data={Skills}
               />
